@@ -1,0 +1,23 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "Fullstack app with nodeJS,React,JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js",
+    "dev":"nodemon app"
+  },
+  "author": "Neha (Geeks Shows)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^5.0.0-beta.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  }
+}
